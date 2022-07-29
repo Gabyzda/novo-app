@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import List from './components/List/List';
+
+const FRUTAS = [
+  {
+    nome: "fresa",
+    quantidade: 92,
+    valor: 7,
+    imagen: "https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2022-04/fresas%C2%A9iStock.jpg.webp?itok=Qr6qTdXj"
+  },
+  {
+    nome: "piña",
+    quantidade: 50,
+    valor: 3,
+    imagen: "https://okdiario.com/img/vida-sana/2015/02/beneficios-de-la-pina-en-la-dieta.jpg"
+  },
+  {
+    nome: "mango",
+    quantidade: 43,
+    valor: 2,
+    imagen: "https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2021-10/mango%C2%A9iStock.jpg.webp?itok=2kF_nLww"
+  },
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <List produtos={FRUTAS} />
     </div>
   );
 }
