@@ -10,4 +10,4 @@ root.render(
   </React.StrictMode>
 );
 
-
+// aqui se borraron cosas que no se necesitan, se elimina el archivo reportWebVitals.js, entonces se elimina de aqu´el import y la parte de abajo que lo llama
