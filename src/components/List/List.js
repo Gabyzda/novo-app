@@ -1,5 +1,6 @@
 import React from "react"; /* es lo primero que se hace*/
 import ListRow from "../ListRow/ListRow"; /*ésto se importa quí, no en App */
+import './List.css';
 
 function List(props) { /*se crea la estrucutra de una función, en vista que se le dio props de -fruta="morango"- a List en App, uno aqui coloca props dentro del paréntesis*/
 
