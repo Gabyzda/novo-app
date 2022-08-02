@@ -2,7 +2,7 @@ import React from "react"; /*siempre */
 import './ListRow.css';
 
 function ListRow(props) { /*En segundo lugar la función , colocamos (props) porque le creamos propiedades a ListRow en List.js*/
-    return (
+     return (
         <div className="listRowContainer">
             <div className="listName">
                 <label>{`Nome: ${props.nome}`}</label>
